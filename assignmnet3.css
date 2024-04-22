@@ -1,42 +1,42 @@
 body {
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
-    header { background-color: rgb(255, 203, 224);
-        padding: 10px ;}
-    
-    
-    ul {
-        list-style: none;
-        padding: 0;
-        display: flex; 
-        justify-content: center;
-    
-    }
-    
-    li {
-        display: inline;
-        margin-right: 20px;
-    }
-    
-    li a {
-        display: block;
-      
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    li a:hover {
-        background-color: #8d3191;
-    }
-    
-    ul li a.active {
-        background-color: #ff7dc0;
-    }
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header { background-color: rgb(255, 203, 224);
+    padding: 10px ;}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex; 
+    justify-content: center;
+
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+li a {
+    display: block;
+  
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #8d3191;
+}
+
+ul li a.active {
+    background-color: #ff7dc0;
+}
 
 h1{color:white;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
@@ -45,14 +45,14 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;}
 
 
 .logo {
-    height: 90px; 
-    width: 90px; 
-    margin-right: 10px; 
+height: 90px; 
+width: 90px; 
+margin-right: 10px; 
 }
 .animecontainer{margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-family: Arial, sans-serif
+padding: 0px;
+text-align: center;
+font-family: Arial, sans-serif
 }
 h4{color:#8d3191}
 
@@ -66,73 +66,73 @@ justify-content: center;
 }
 
 #container2
- {display:grid;
-    grid-template-columns: 1fr 1fr   ;
-    margin: auto;
-    padding: auto;
-    width: 100%;
-    height: 30%;
-    text-align: center;
-    box-shadow: 0px 0px 10px 0px rgb(230,215,255);
-    border-radius: 10px;
-    background-color: rgb(255, 203, 224);
+{display:grid;
+grid-template-columns: 1fr;
+margin: auto;
+padding: auto;
+width: 100%;
+height: 30%;
+text-align: center;
+box-shadow: 0px 0px 10px 0px rgb(230,215,255);
+border-radius: 10px;
+background-color: rgb(255, 203, 224);
 
- }
+}
 
- footer {
-    background-color: rgb(255, 203, 224);
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, sans-serif;
+footer {
+background-color: rgb(255, 203, 224);
+padding: 20px;
+text-align: center;
+font-family: Arial, sans-serif;
 }
 
 footer div {
-    display: inline-block;
-    margin: 0 20px;
+display: inline-block;
+margin: 0 20px;
 }
 
 footer p {
-    margin: 5px 0;
+margin: 5px 0;
 }
 
 footer a {
-    color: #007bff;
-    text-decoration: none;
+color: #8937ac;
+text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
+text-decoration: underline;
 }
 
 .container4{padding:0px;
-    
+
 color:azure;}
 
 .my-element {
-    --animate-repeat: infinite;
-  }
+--animate-repeat: infinite;
+}
 
-  .innerStyle img {
-    width: 400px;
-    height: 200px;
-    margin-left: auto;
-    margin-right: auto;
+.innerStyle img {
+width: 400px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
 }
 
 
 .innerStyle {
-    margin: 20px;
-    padding: 40px;
-    background-color:rgb(251, 226, 236)
-    ;
+margin: 20px;
+padding: 40px;
+background-color:rgb(251, 226, 236)
+;
 }
 
 
 
 .custom-img-size {
-    width: 100%;
-    height: 50px; 
-    object-fit: cover; 
+width: 100%;
+height: 50px; 
+object-fit: cover; 
 }
 
 h3{color: #8d3191;}
@@ -142,7 +142,7 @@ h4{color: rgb(99, 66, 160);
 font-size: small;}
 
 .one{color: #ff749b;
-    font-size: medium;}
+font-size: medium;}
 
 h5{color: white;}
 
@@ -154,65 +154,65 @@ h1{text-align: center;}
 .card-text{color:rgb(50, 16, 108);}
 
 footer {
-    background-color: rgb(255, 203, 224);
-    padding: 20px 0;
+background-color: rgb(255, 203, 224);
+padding: 20px 0;
 }
 
 .footer-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+display: flex;
+justify-content: space-around;
+align-items: center;
 }
 
 .footer-logo img {
-    width: 90px; 
+width: 90px; 
 }
 
 .footer-links, .footer-contact {
-    flex: 1;
+flex: 1;
 }
 
 .footer-links p, .footer-contact p {
-    margin: 0;
-    padding: 5px 0;
+margin: 0;
+padding: 5px 0;
 }
 
 footer {
-    background-color: rgb(255, 203, 224);
-    padding: 20px 0;
+background-color: rgb(255, 203, 224);
+padding: 20px 0;
 }
 
 
 .footer-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center align the content */
-    align-items: center;
+display: flex;
+flex-wrap: wrap;
+justify-content: center; /* Center align the content */
+align-items: center;
 }
 
 .footer-logo {
-    flex: 1 1 100%;
-    text-align: center;
-    margin-bottom: 20px; 
+flex: 1 1 100%;
+text-align: center;
+margin-bottom: 20px; 
 }
 
 .footer-logo img {
-    width: 90px; 
+width: 90px; 
 }
 
 .footer-links, .footer-contact {
-    flex: 1 1 100%;
-    text-align: center;
+flex: 1 1 100%;
+text-align: center;
 }
 
 .footer-links p, .footer-contact p {
-    margin: 0;
-    padding: 5px 0;
+margin: 0;
+padding: 5px 0;
 }
 
 @media screen and (max-width: 768px) {
-    #container2 {
-        width: 100%; 
-        padding: 10px; 
-    }
+#container2 {
+    width: 100%; 
+    padding: 10px; 
+}
 }
