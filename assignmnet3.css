@@ -129,6 +129,7 @@ background-color:rgb(251, 226, 236)
 
 
 
+
 .custom-img-size {
 width: 100%;
 height: 50px; 
@@ -210,3 +211,23 @@ margin: 0;
 padding: 5px 0;
 }
 
+.innerStyle {
+    margin: 20px;
+    padding: 40px;
+    background-color: rgb(251, 226, 236);
+    box-sizing: border-box; 
+}
+
+.innerStyle img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .innerStyle {
+        padding: 20px; 
+    }
+}
