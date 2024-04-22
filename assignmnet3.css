@@ -209,3 +209,10 @@ footer {
     margin: 0;
     padding: 5px 0;
 }
+
+@media screen and (max-width: 768px) {
+    #container2 {
+        width: 100%; 
+        padding: 10px; 
+    }
+}
