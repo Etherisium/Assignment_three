@@ -17,14 +17,14 @@ function show (animedata) {
     
        oldContent.textContent = " "; 
        
-        for (var i=0; i< animedata.length; i++)
+        for (var i=0; i< animedata.data.length; i++)
         
         {
        
            var newDiv = document.createElement("div");
     
            newDiv.innerHTML = `<h3> Anime Name: <b>${animedata.data[i].attributes.canonicalTitle}</b> </h3><br>
-                <img src= "${animedata.data[i].attributes.coverimage.large}"> <br> <br>`;
+                <img src= "${animedata.data[i].attributes.coverImage.large}"> <br> <br>`;
     
            newDiv.classList.add("innerStyle");
     
