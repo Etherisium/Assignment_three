@@ -23,9 +23,10 @@ function show (animedata) {
        
            var newDiv = document.createElement("div");
     
-           newDiv.innerHTML = `<h3> Anime Name: <b>${animedata.data[i].attributes.canonicalTitle}</b> </h3><br>
-                <img src= "${animedata.data[i].attributes.coverImage.large}"> <br> <br>`;
-    
+           newDiv.innerHTML = `<h3><b>${animedata.data[i].attributes.canonicalTitle}</b> </h3><br>
+                <img src= "${animedata.data[i].attributes.coverImage.large}"> <br> <br>
+               <h4> ${animedata.data[i].attributes.synopsis}</h4>`;
+            
            newDiv.classList.add("innerStyle");
     
            oldContent.appendChild(newDiv); 
