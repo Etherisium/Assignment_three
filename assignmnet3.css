@@ -136,10 +136,20 @@ color:azure;}
 h3{color: #8d3191;}
 
 
-h4{color: #432044;
+h4{color: rgb(99, 66, 160);
 font-size: small;}
 
 .one{color: #ff749b;
     font-size: medium;}
 
 h5{color: white;}
+
+h1{text-align: center;}
+
+.pink{background-color: rgb(255, 231, 235);}
+
+.card-title{color: rgb(204, 5, 85);}
+.card-text{color:rgb(50, 16, 108);}
+
+p{color: #ff749b;
+    font-size: medium;}
